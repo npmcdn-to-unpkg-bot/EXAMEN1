@@ -1,0 +1,131 @@
+body {
+    padding: 0px;
+}
+
+#header {
+    padding: 0px;
+    background: #ccc;
+}
+
+#header a img{
+	  width: 60%;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+#container {
+    background: #fff;
+}
+
+#navigation {
+    background: #333;
+}
+
+#navigation ul {
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li {
+    list-style-type: none;
+}
+
+#navigation li a {
+    display: block;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#navigation li a:hover {
+    background: #383;
+}
+
+#navigation-footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+#navigation-footer ul li {
+    list-style-type: none;
+}
+
+#navigation-footer li a {
+    display: block;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+#navigation-footer li a:hover {
+    background: #383;
+}
+
+#content {
+    clear: left;
+    float: left;
+    display: inline;
+}
+
+#content-img{
+	float: left;
+	width: 100%;
+}
+
+
+#content-img img{
+    width: 100%;
+	margin-top: 10px;
+}
+
+#aside-center, #aside-right {
+    display: inline;
+}
+
+
+#content-container {
+    width: 100%;
+    background: #FFF;
+}
+
+#content h2 {
+    margin: 0;
+}
+
+#aside-center h3 , #aside-right h3{
+    margin: 0;
+}
+
+#aside-center .blue-color. #aside-right .blue-color{
+	color: #0000ff;
+}
+#aside-center .red-color{
+	color: #ff0000;
+}
+#aside-center .green-color{
+	color: #32CD32;	
+}
+
+#footer {
+	text-align: center;
+    background: #333;
+	color: #fff;
+	height: 30px;
+    padding-top: 4px;
+	text-align: center;
+}
+
+#sub-section-center{
+    background: greenyellow;
+    border: 1px solid black;
+}
+
+#sub-section-center .underline{
+ text-decoration: underline;
+}
+
+#sub-sub-section{
+  font-style: italic;
+    padding-top: 7px;
+}
