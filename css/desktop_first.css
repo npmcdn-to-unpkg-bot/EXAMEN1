@@ -1,53 +1,77 @@
 /*==========  Desktop First Method  ==========*/
+ #header {
+  }
 
-#header {
-}
+  #header a img{
+	width: 60%;
+  }
 
-#container {
+  #container {
     margin: 0 auto;
     width: 100%;
-}
+  }
 
-#navigation {
+  #navigation , #navigation-footer{
     float: left;
     width: 100%;
-}
+  }
+ 
+  #navigation-footer {
+	display: inherit;
+  }
 
-#navigation ul li {
+  #navigation ul li , #navigation-footer ul li{
     display: inline;
-}
+  }
 
-#navigation li a {
+  #navigation li a , #navigation-footer ul li {
     float: left;
     border-right: 1px solid #fff;
-}
+  }
 
-#content {
-    width: 60%;
-    padding: 20px 0;
-    margin: 0 0 0 4%;
-}
+  #content {
+    width: 40%;
+    margin: 0 10px;
+    padding: 0px;
+  }
 
-#aside {
-    float: right;
+
+  #content-img{
+	text-align: center;
+  }
+  
+  #content-img img{
+    width: 990px;
+	height: 340px;
+  }
+ 
+   #aside-center , #aside-right {
     width: 26%;
-    padding: 20px 0;
     margin: 0 3% 0 0;
-}
+  }
 
-#content-container {
+  #aside-center{
+	float: left;
+  }
+  
+  #aside-right{
+	float: right;
+  }
+
+  #aside-center img, #aside-right img{
+    width: 100%;
+	}
+  #content-container {
     float: left;
-}
+  }
 
-
-#content-img img{
-    width: 920px;
-    height: 300px;
-	margin-top: 10px;
-}
-#footer {
+  #footer {
     text-align: right;
-}
+	height: 60px;
+	float: left;
+	width: 100%;
+	
+  }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -66,100 +90,154 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-  #header {
-      position: fixed;
-      top: 0px;
-      left: 0px;
-      width: 100%;
-      height: 35px;
-  }
-
-  #aside {
-      float: left;;
-      width: 100%;
-      padding: 0;
-  }
-
-  #content {
-      padding: 0px;
-      margin: 0px;
-      width: 100%;
-  }
-
-  #navigation {
-      margin-top: 75px;
-  }
-
-  #navigation ul li {
-      display: block;
-  }
-
-  #navigation ul li a {
-      float: none;
-  }
-
-  #content h2 {
-    margin: 5% 0;
-  }
-
   
- #content-img img{
-    width: 920px;
-    height: 300px;
-	margin-top: 10px;
- }
+	#header {
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		float: left;
+	}
 
-  #footer {
-      text-align: center;
-  }
+	/*regla para el logo */
+	#header a img{
+		width: 100%;
+	}
+
+	#aside-center , #aside-right {
+		float: left;
+		width: 100%;
+	}
+
+	#aside-center img, #aside-right img{
+		width: 100%;
+	}
+
+	#content {
+	   width: 100%;
+	   float: left;
+	}
+
+	 #content-img img{
+	   width: 100%;
+	 }
+
+	#content h2 {
+	  margin: 5% 0;
+	}
+
+	/*color para el menu del header*/
+	#navigation , #navigation-footer {
+		background: #333;
+	}
+	/*margin y padding para cada elemento de los menus */
+	#navigation ul , #navigation-footer  ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	/*quitar el punto de cada elemento de los menus */
+	#navigation ul li, #navigation-footer ul li {
+		list-style-type: none;
+	}
+
+	/*color para cada hyperlink  de los menus*/
+	#navigation li a , #navigation-footer  li a {
+		display: block;
+		padding: 5px 10px;
+		color: #fff;
+		text-decoration: none;
+	}
+
+	/*que se vea verde cuando toca cada elemento de los menus*/
+	#navigation li a:hover , 
+	#navigation-footer li a:hover{
+		background: #383;
+	}
+
+
+	#footer {
+	   float: left;
+	   width: 100%;
+	}
+
+	#navigation-footer{
+		display: none;
+	}
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-  #header {
-      position: fixed;
-      top: 0px;
-      left: 0px;
-      width: 100%;
-      height: 35px;
-  }
-
-  #aside {
-      float: left;;
-      width: 100%;
-      padding: 0;
-  }
-
-  #content {
-      padding: 0px;
-      margin: 0px;
-      width: 100%;
-  }
-
-  #navigation {
-      margin-top: 75px;
-  }
-
-  #navigation ul li {
-      display: block;
-  }
-
-  #navigation ul li a {
-      float: none;
-  }
-
-  #content h2 {
-    margin: 5% 0;
-  }
-
   
- #content-img img{
-    width: 920px;
-    height: 300px;
-	margin-top: 10px;
- }
+	#header {
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		float: left;
+	}
 
-  #footer {
-      text-align: center;
-  }
+	/*regla para el logo */
+	#header a img{
+		width: 100%;
+	}
+
+	#aside-center , #aside-right {
+		float: left;
+		width: 100%;
+	}
+
+	#aside-center img, #aside-right img{
+		width: 100%;
+	}
+
+	#content {
+	   width: 100%;
+	   float: left;
+	}
+
+	 #content-img img{
+	   width: 100%;
+	 }
+
+	#content h2 {
+	  margin: 5% 0;
+	}
+	
+	/*color para el menu del header*/
+	#navigation , #navigation-footer {
+		background: #333;
+	}
+	/*margin y padding para cada elemento de los menus */
+	#navigation ul , #navigation-footer  ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	/*quitar el punto de cada elemento de los menus */
+	#navigation ul li, #navigation-footer ul li {
+		list-style-type: none;
+	}
+
+	/*color para cada hyperlink  de los menus*/
+	#navigation li a , #navigation-footer  li a {
+		display: block;
+		padding: 5px 10px;
+		color: #fff;
+		text-decoration: none;
+	}
+
+	/*que se vea verde cuando toca cada elemento de los menus*/
+	#navigation li a:hover , 
+	#navigation-footer li a:hover{
+		background: #383;
+	}
+
+
+	#footer {
+	   float: left;
+	   width: 100%;
+	}
+
+	#navigation-footer{
+		display: none;
+	}
 }

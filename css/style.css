@@ -6,10 +6,6 @@ body {
     padding: 0px;
     background: #ccc;
 }
-/*regla para el logo */
-#header a img{
-	  width: 60%;
-}
 
 /*div principal que envuelve todo el body */
 #container {
@@ -58,21 +54,6 @@ body {
 	width: 100%;
 }
 
-/* para la imagen principal*/
-#content-img img{
-    width: 100%;
-	margin-top: 10px;
-}
-/* para los 2 asides*/
-#aside-center, #aside-right {
-    display: inline;
-}
-
-/* para el margin de las 2 imagenes de los asides*/
-#aside-center img, #aside-right img {
-     margin-top: 10px;
-	 margin-bottom: 10px;
-}
 
 /* para el section de todo el contenido */
 #content-container {

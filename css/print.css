@@ -15,4 +15,8 @@
         display: block;
         page-break-inside: avoid;
     }
+	
+	img{
+		display: none;
+	}
 }
