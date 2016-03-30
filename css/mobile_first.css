@@ -9,7 +9,7 @@
 
 /*regla para el logo */
 #header a img{
-	  width: 100%;
+	width: 100%;
 }
 
 #aside-center , #aside-right {
@@ -18,16 +18,16 @@
 }
 
 #aside-center img, #aside-right img{
-	  width: 100%;
+	width: 100%;
 }
 
 #content {
-    width: 100%;
-	float: left;
+   width: 100%;
+   float: left;
 }
 
  #content-img img{
-    width: 100%;
+   width: 100%;
  }
 
 #content h2 {
@@ -38,22 +38,18 @@
    margin-top: 0px;
 }
 
-#navigation ul li {
-    display: block;
+#navigation ul li , 
+#navigation-footer ul li{
+   display: block;
 }
 
 #footer {
-	float: left;
-	width: 100%;
+   float: left;
+   width: 100%;
 }
 
 #navigation-footer{
 	display: none;
-}
-
-
-#footer p{
-	margin: 0;
 }
 
 
@@ -78,61 +74,68 @@
   }
 
   #header a img{
-	  width: 60%;
+	width: 60%;
   }
-
 
   #container {
-      margin: 0 auto;
-      width: 100%;
+    margin: 0 auto;
+    width: 100%;
   }
 
-  #navigation {
-      float: left;
-      width: 100%;
+  #navigation , #navigation-footer{
+    float: left;
+    width: 100%;
+  }
+ 
+  #navigation-footer {
+	display: inherit;
   }
 
-  #navigation ul li {
-      display: inline;
+  #navigation ul li , #navigation-footer ul li{
+    display: inline;
   }
 
-  #navigation li a {
-      float: left;
-      border-right: 1px solid #fff;
+  #navigation li a , #navigation-footer ul li {
+    float: left;
+    border-right: 1px solid #fff;
   }
 
   #content {
-      width: 60%;
-      padding: 20px 0;
-      margin: 0 0 0 4%;
+    width: 40%;
+    margin: 0 10px;
+    padding: 0px;
   }
 
- #content-img img{
+
+  #content-img{
+	text-align: center;
+  }
+  
+  #content-img img{
     width: 990px;
 	height: 340px;
-    padding-left: 15%;
- }
-  #content h2 {
-    margin: 0;
+  }
+ 
+   #aside-center , #aside-right {
+    width: 26%;
+    margin: 0 3% 0 0;
   }
 
-  #aside-center , #aside-right {
-      float: right;
-      width: 26%;
-      padding: 20px 0;
-      margin: 0 3% 0 0;
+  #aside-center{
+	float: left;
   }
-
-  #aside-center img, #aside-right img{
-	 /* width: 60%;*/
+  
+  #aside-right{
+	float: right;
   }
 
   #content-container {
-      float: left;
+    float: left;
   }
 
   #footer {
-      text-align: right;
+    text-align: right;
+	height: 60px;
   }
 }
 
@@ -142,61 +145,65 @@
   }
 
   #header a img{
-	  width: 60%;
+	width: 60%;
   }
 
   #container {
-      margin: 0 auto;
-      width: 100%;
+    margin: 0 auto;
+    width: 100%;
   }
 
-  #navigation {
-      float: left;
-      width: 100%;
+   #navigation , #navigation-footer{
+    float: left;
+    width: 100%;
   }
 
-  #navigation ul li {
-      display: inline;
+  #navigation-footer {
+	display: inherit;
+  }
+  #navigation ul li , #navigation-footer ul li{
+    display: inline;
   }
 
-  #navigation li a {
-      float: left;
-      border-right: 1px solid #fff;
+  #navigation li a , #navigation-footer ul li {
+    float: left;
+    border-right: 1px solid #fff;
   }
-
   #content {
-      width: 60%;
-      margin: 0px;
-      padding: 0px;
+    width: 40%;
+    margin: 0 10px;
+    padding: 0px;
+  }
+
+
+  #content-img{
+	text-align: center;
   }
   
-
-  #content h2 {
-    margin: 0;
-  }
-
- #content-img img{
+  #content-img img{
     width: 990px;
 	height: 340px;
-    padding-left: 15%;
- }
+  }
  
-  #aside-center , #aside-right {
-      float: right;
-      width: 26%;
-      padding: 20px 0;
-      margin: 0 3% 0 0;
+   #aside-center , #aside-right {
+    width: 26%;
+    margin: 0 3% 0 0;
   }
 
-  #aside-center img, #aside-right img{
-	  /* width: 60%;*/
+  #aside-center{
+	float: left;
+  }
+  
+  #aside-right{
+	float: right;
   }
 
   #content-container {
-      float: left;
+    float: left;
   }
 
   #footer {
-      text-align: right;
+    text-align: right;
+	height: 60px;
   }
 }
