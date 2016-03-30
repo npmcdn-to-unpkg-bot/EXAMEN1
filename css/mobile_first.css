@@ -7,6 +7,7 @@
 	float: left;
 }
 
+/*regla para el logo */
 #header a img{
 	  width: 100%;
 }
@@ -49,6 +50,12 @@
 #navigation-footer{
 	display: none;
 }
+
+
+#footer p{
+	margin: 0;
+}
+
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {

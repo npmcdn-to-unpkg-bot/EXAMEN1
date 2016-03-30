@@ -6,107 +6,111 @@ body {
     padding: 0px;
     background: #ccc;
 }
-
+/*regla para el logo */
 #header a img{
 	  width: 60%;
 }
 
-#header h1 {
-    margin: 0;
-}
-
+/*div principal que envuelve todo el body */
 #container {
     background: #fff;
 }
 
-#navigation {
+/*color para el menu del header*/
+#navigation , #navigation-footer {
     background: #333;
 }
-
-#navigation ul {
+/*margin y padding para cada elemento de los menus */
+#navigation ul , #navigation-footer  ul {
     margin: 0;
     padding: 0;
 }
 
-#navigation ul li {
+/*quitar el punto de cada elemento de los menus */
+#navigation ul li, #navigation-footer ul li {
     list-style-type: none;
 }
 
-#navigation li a {
+/*color para cada hyperlink  de los menus*/
+#navigation li a , #navigation-footer  li a {
     display: block;
     padding: 5px 10px;
     color: #fff;
     text-decoration: none;
 }
 
-#navigation li a:hover {
+/*que se vea verde cuando toca cada elemento de los menus*/
+#navigation li a:hover , 
+#navigation-footer li a:hover{
     background: #383;
 }
 
-#navigation-footer ul {
-    margin: 0;
-    padding: 0;
-}
-
-#navigation-footer ul li {
-    list-style-type: none;
-}
-
-#navigation-footer li a {
-    display: block;
-    padding: 5px 10px;
-    color: #fff;
-    text-decoration: none;
-}
-#navigation-footer li a:hover {
-    background: #383;
-}
-
+/* para el article del main section*/
 #content {
     clear: left;
     float: left;
     display: inline;
 }
 
+/*para el contenedor de la imagen principal */
 #content-img{
 	float: left;
 	width: 100%;
 }
 
-
+/* para la imagen principal*/
 #content-img img{
     width: 100%;
 	margin-top: 10px;
 }
-
+/* para los 2 asides*/
 #aside-center, #aside-right {
     display: inline;
 }
 
+/* para el margin de las 2 imagenes de los asides*/
+#aside-center img, #aside-right img {
+     margin-top: 10px;
+	 margin-bottom: 10px;
+}
 
+/* para el section de todo el contenido */
 #content-container {
     width: 100%;
     background: #FFF;
 }
 
-#content h2 {
-    margin: 0;
-}
 
-#aside-center h3 , #aside-right h3{
-    margin: 0;
-}
+/* para poner palabras con colores azul, rojo y verde en los asides */
 
-#aside-center .blue-color. #aside-right .blue-color{
+#aside-center .blue-color, #aside-right .blue-color{
 	color: #0000ff;
 }
-#aside-center .red-color{
+#aside-center .red-color , #aside-right #sub-section-right .red-color{
 	color: #ff0000;
 }
-#aside-center .green-color{
+#aside-center .green-color , #aside-right .green-color{
 	color: #32CD32;	
 }
 
+/*para el sub-section, el div verde  */
+#sub-section-center{
+    background: greenyellow;
+    border: 1px solid black;
+    text-align: left;
+}
+/*para el estilo del sub-sub-section, cursiva */
+#sub-sub-section{
+    font-style: italic;
+    padding-top: 7px;
+}
+
+/* para hacer letra negrita*/
+.strong{
+   font-weight: bold;
+}
+
+/* para el footer */
 #footer {
 	text-align: center;
     background: #333;
@@ -114,18 +118,4 @@ body {
 	height: 30px;
     padding-top: 4px;
 	text-align: center;
-}
-
-#sub-section-center{
-    background: greenyellow;
-    border: 1px solid black;
-}
-
-#sub-section-center .underline{
- text-decoration: underline;
-}
-
-#sub-sub-section{
-  font-style: italic;
-    padding-top: 7px;
 }
